@@ -10,7 +10,7 @@ class Gep{
     };
 
     setGepAdatok(ertek){
-        this.cim.html(ertek.cim);
+        this.cim.html(ertek.eszkoz_neve);
         this.kep.attr("src", ertek.kep);
         this.leiras.html(ertek.leiras);
     };

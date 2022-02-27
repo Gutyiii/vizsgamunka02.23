@@ -30,7 +30,7 @@
         aside{grid-area: s;width: 300px;}
         aside div {margin: 15px;}
     </style>
-    <link rel="stylesheet" href="../css/body.css">
+    <link rel="stylesheet" href="css/body.css">
     <title>Kezdőoldal</title>
 </head>
 

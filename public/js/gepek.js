@@ -2,7 +2,7 @@ $(function(){
     
     const myAjax = new MyAjax();
     const eszkozokTomb = [];
-    let apiVegpont = "http://localhost:3000/adatok";
+    let apiVegpont = "/api/gepek";
 
     
 
