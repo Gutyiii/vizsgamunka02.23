@@ -14,6 +14,8 @@ use App\Http\Controllers\api\GepekController;
 |
 */
 
+
+
 /*oldalak*/
 Route::get('/', function () { return view('pages.index'); });
 Route::get('/gepek', function () { return view('pages.gepek'); });
@@ -24,6 +26,19 @@ Route::get('/bejelentkezes', function () { return view('pages.bejelentkezes'); }
 Route::get('/regisztracio', function () { return view('pages.regisztracio'); });
 Route::get('/elfelejtettjelszo', function () { return view('pages.elfelejtettjelszo'); });
 Route::get('/berletVasarlas', function () { return view('pages.berletVasarlas'); });
+
+/*gépek oldal
+Route::get('/api/gepek/search', [GepekController::class, 'search']);
+Route::get('/api/gepek/sort', [GepekController::class, 'sortBy']);
+Route::get('/api/gepek/expand={child}', [GepekController::class, 'expand']);
+Route::get('/api/gepek', [GepekController::class, 'index']);
+Route::get('/api/gepek/{id}', [GepekController::class, 'show']);
+Route::put('/api/gepek/{id}', [GepekController::class, 'update']);
+Route::post('/api/gepek', [GepekController::class, 'store']);
+Route::delete('/api/gepek/{id}', [GepekController::class, 'destroy']);
+*/
+
+
 
 //Route::get('/cikkek', function () { return view('cikkek_etrend'); });
 /*  Route::get('/bejelentkezes', function () { return view('bejelentkezes'); });
