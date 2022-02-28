@@ -1,6 +1,6 @@
 @extends('layouts.gepekapp')
     @section('content')
-    @include('includes.feluletheader')
+    @include('includes.keresoheader')
     <header class="kepvaltas">
         <div id="demo" class="carousel slide" data-ride="carousel">
 

@@ -33,7 +33,7 @@
                 </a>
               </div>
             </header>
-            @include('includes.indexnav')
+            @include('includes.kapcsolatoknav')
         <article id="szabalyzat">    
             <h1>Szabályzat:</h1>
             <ul>

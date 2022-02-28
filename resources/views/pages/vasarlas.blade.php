@@ -40,7 +40,7 @@
             <div class="berlet">
                 <img src="../kepek/berlet2.jpg" alt="avatar" class="image" style="width: 400px; height: 400px;">
                 <div class="rahuzas">
-                    <div class="szoveg"><a href="berletVasarlas.html">Bérlet</a></div>
+                    <div class="szoveg"><a href="/berletVasarlas">Bérlet</a></div>
                 </div>
             </div>
         </div>

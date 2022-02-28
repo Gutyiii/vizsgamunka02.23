@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\TaskController;
+use App\Http\Controllers\api\GepekController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,9 +17,15 @@ use App\Http\Controllers\TaskController;
 /*oldalak*/
 Route::get('/', function () { return view('pages.index'); });
 Route::get('/gepek', function () { return view('pages.gepek'); });
-Route::get('/kapcsolatok', function () { return view('kapcsolatok'); });
-Route::get('/vasarlas', function () { return view('vasarlas'); });
-Route::get('/cikkek', function () { return view('cikkek_etrend'); });
+Route::get('/kapcsolatok', function () { return view('pages.kapcsolatok'); });
+Route::get('/vasarlas', function () { return view('pages.vasarlas'); });
+Route::get('/cikkek_etrend', function () { return view('pages.cikkek_etrend'); });
+Route::get('/bejelentkezes', function () { return view('pages.bejelentkezes'); });
+Route::get('/regisztracio', function () { return view('pages.regisztracio'); });
+Route::get('/elfelejtettjelszo', function () { return view('pages.elfelejtettjelszo'); });
+Route::get('/berletVasarlas', function () { return view('pages.berletVasarlas'); });
+
+//Route::get('/cikkek', function () { return view('cikkek_etrend'); });
 /*  Route::get('/bejelentkezes', function () { return view('bejelentkezes'); });
     Route::get('/berletvasarlas', function () { return view('berletvasarlas'); });
     Route::get('/elfjelszo', function () { return view('elfjelszo'); });

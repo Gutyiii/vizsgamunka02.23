@@ -14,9 +14,6 @@ yarn-error.log
 /.idea
 /.vscode
 
-/lang
-/config
-/test
 .editorconfig
 .env.example
 .gitattributes

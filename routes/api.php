@@ -3,6 +3,7 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\api\GepekController;
+use App\Http\Controllers\api\BerletVasarlasController;
 
 
 /*
@@ -21,3 +22,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::apiResource('gepek', GepekController::class);
+Route::apiResource('berletVasarlas', BerletVasarlasController::class);
